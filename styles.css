@@ -83,6 +83,14 @@ header {
     padding: 64px;
 }
 
+.card-img {
+    border: 4px solid blue;
+    border-radius: 16px;
+    object-fit: cover;
+    width: 128px;
+    height: 128px;
+}
+
 .card-text {
     text-align: center;
     font-size: small;
@@ -126,6 +134,19 @@ header {
     padding: 32px 128px;
     border: 4px solid 3382F6;
     border-radius: 8px;
+    color: white;
+}
+
+.sign-up-left {
+    margin: 16px;
+}
+
+.sign-up-left h2{
+    margin: 0;
+}
+
+.sign-up-left p{
+    margin: 0;
 }
 
 .sign-up-button {
